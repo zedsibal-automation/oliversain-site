@@ -169,7 +169,7 @@ p{ margin:0 0 1em; line-height:1.65; }
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   font-family: var(--font-body); font-weight:600; font-size: .96rem;
-  padding: 14px 36px; border-radius: 999px; border: 1px solid transparent;
+  padding: 14px 60px; border-radius: 999px; border: 1px solid transparent;
   cursor:pointer; transition: transform .2s var(--ease), background .2s var(--ease), border-color .2s var(--ease);
 }
 .btn-primary{ background: var(--cyan); color: var(--navy); }
