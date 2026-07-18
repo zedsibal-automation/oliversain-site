@@ -96,7 +96,7 @@ p{ margin:0 0 1em; line-height:1.65; }
 .nav-links a.is-active{ color: var(--off-white); }
 .nav-cta{
   background: var(--cyan); color: var(--navy) !important; font-weight:600;
-  padding: 9px 18px; border-radius: 999px; font-size:.88rem;
+  padding: 9px 30px; border-radius: 999px; font-size:.88rem;
 }
 .nav-cta:hover{ background:#3fd0ec; }
 
