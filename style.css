@@ -164,12 +164,12 @@ p{ margin:0 0 1em; line-height:1.65; }
 .hero-sub{
   font-size:1.08rem; color: rgba(245,247,250,0.82); max-width: 46ch;
 }
-.hero-actions{ display:flex; gap:28px; flex-wrap:wrap; margin: 1.5em 0 2.6em; }
+.hero-actions{ display:flex; gap:16px; flex-wrap:wrap; margin: 1.5em 0 2.6em; }
 
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   font-family: var(--font-body); font-weight:600; font-size: .96rem;
-  padding: 14px 60px; border-radius: 999px; border: 1px solid transparent;
+  padding: 14px 90px; border-radius: 999px; border: 1px solid transparent;
   cursor:pointer; transition: transform .2s var(--ease), background .2s var(--ease), border-color .2s var(--ease);
 }
 .btn-primary{ background: var(--cyan); color: var(--navy); }
