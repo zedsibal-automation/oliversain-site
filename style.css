@@ -183,10 +183,11 @@ p{ margin:0 0 1em; line-height:1.65; }
   color: rgba(245,247,250,0.5); margin-bottom:.8em;
 }
 .tool-strip{
-  list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap: 10px 22px;
+  list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap: 10px;
 }
 .tool-strip li{
-  font-family: var(--font-mono); font-size:.85rem; color: rgba(245,247,250,0.7);
+  font-family: var(--font-mono); font-size:.82rem; color: var(--off-white);
+  border: 1px solid var(--line-soft); padding: 6px 12px; border-radius: 999px;
 }
 
 .hero-visual{ position:relative; }
