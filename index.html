@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oliver Sain — AI Automation Specialist | Save 10+ Hours a Week</title>
+<meta name="description" content="Oliver Sain helps businesses save 10+ hours a week with AI automation, workflow integration, and custom chatbots. Book a free automation audit.">
+<meta name="keywords" content="AI automation, workflow automation, Zapier, Make, n8n, chatbot development, CRM automation, business automation consultant">
+<meta property="og:title" content="Oliver Sain — AI Automation Specialist">
+<meta property="og:description" content="I help businesses save 10+ hours a week by automating the busywork with AI.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">Oliver Sain<span class="nav-logo-dot">.</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home" data-nav>Home</a>
+      <a href="#services" data-nav>Services</a>
+      <a href="#case-studies" data-nav>Case Studies</a>
+      <a href="#about" data-nav>About</a>
+      <a href="#contact" data-nav class="nav-cta">Book a Call</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home" data-nav>Home</a>
+    <a href="#services" data-nav>Services</a>
+    <a href="#case-studies" data-nav>Case Studies</a>
+    <a href="#about" data-nav>About</a>
+    <a href="#contact" data-nav>Book a Call</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AI Automation Specialist</p>
+        <h1>I help businesses get back <span class="hl">10+ hours a week</span> by automating the busywork.</h1>
+        <p class="hero-sub">Manual data entry. Follow-up emails nobody sends. Leads that fall through the cracks. I build the AI-powered systems that quietly handle it — so your team can focus on work only humans can do.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a free automation audit</a>
+          <a href="#case-studies" class="btn btn-ghost">See results</a>
+        </div>
+        <div class="hero-proof">
+          <p class="hero-proof-label">Trusted by teams running on</p>
+          <ul class="tool-strip">
+            <li>Zapier</li>
+            <li>Make</li>
+            <li>n8n</li>
+            <li>OpenAI</li>
+            <li>Claude API</li>
+            <li>HubSpot</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <svg class="flow-diagram" viewBox="0 0 420 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- connecting paths -->
+          <path class="flow-path" d="M 210 55 L 210 140" />
+          <path class="flow-path" d="M 210 140 L 90 220" />
+          <path class="flow-path" d="M 210 140 L 210 220" />
+          <path class="flow-path" d="M 210 140 L 330 220" />
+          <path class="flow-path" d="M 90 260 L 90 330" />
+          <path class="flow-path" d="M 210 260 L 210 330" />
+          <path class="flow-path" d="M 330 260 L 330 330" />
+          <path class="flow-path" d="M 90 330 L 210 400" />
+          <path class="flow-path" d="M 210 330 L 210 400" />
+          <path class="flow-path" d="M 330 330 L 210 400" />
+
+          <!-- trigger node -->
+          <g class="flow-node flow-node--trigger">
+            <rect x="160" y="20" width="100" height="36" rx="8"/>
+            <text x="210" y="43" text-anchor="middle">New Lead In</text>
+          </g>
+
+          <!-- router node -->
+          <g class="flow-node flow-node--router">
+            <circle cx="210" cy="180" r="40"/>
+            <text x="210" y="177" text-anchor="middle">AI</text>
+            <text x="210" y="192" text-anchor="middle" class="flow-node-sub">Router</text>
+          </g>
+
+          <!-- action nodes -->
+          <g class="flow-node flow-node--action">
+            <rect x="40" y="220" width="100" height="40" rx="8"/>
+            <text x="90" y="245" text-anchor="middle">CRM Update</text>
+          </g>
+          <g class="flow-node flow-node--action">
+            <rect x="160" y="220" width="100" height="40" rx="8"/>
+            <text x="210" y="245" text-anchor="middle">Chatbot Reply</text>
+          </g>
+          <g class="flow-node flow-node--action">
+            <rect x="280" y="220" width="100" height="40" rx="8"/>
+            <text x="330" y="245" text-anchor="middle">Slack Alert</text>
+          </g>
+
+          <!-- outcome dots -->
+          <circle class="flow-dot" cx="90" cy="330" r="6"/>
+          <circle class="flow-dot" cx="210" cy="330" r="6"/>
+          <circle class="flow-dot" cx="330" cy="330" r="6"/>
+
+          <!-- done node -->
+          <g class="flow-node flow-node--done">
+            <rect x="150" y="400" width="120" height="40" rx="8"/>
+            <text x="210" y="425" text-anchor="middle">Booked ✓</text>
+          </g>
+
+          <!-- traveling packet -->
+          <circle class="flow-packet" r="5">
+            <animateMotion dur="4s" repeatCount="indefinite"
+              path="M 210 55 L 210 140 L 210 180 L 90 220 L 90 260 L 90 330 L 210 400" />
+          </circle>
+        </svg>
+        <p class="hero-visual-caption">One trigger. Zero manual steps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section section-dark">
+    <div class="section-inner">
+      <p class="eyebrow eyebrow-light reveal">What I Build</p>
+      <h2 class="reveal">Automation that pays for itself in the first month</h2>
+      <p class="section-lede reveal">Every engagement starts with the same question: where is your team's time actually going? From there, I design and build the exact system to get it back.</p>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M8 20h8M24 20h8M20 8v8M20 24v8" stroke-linecap="round"/><circle cx="20" cy="20" r="6"/></svg>
+          </div>
+          <h3>Workflow Automation</h3>
+          <p>I connect the tools you already use — your CRM, inbox, spreadsheets, invoicing — so information moves between them on its own.</p>
+          <p class="service-outcome">Outcome: no more copy-pasting between apps.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><rect x="8" y="10" width="24" height="18" rx="4"/><path d="M14 28v4M26 28v4M14 17h.01M26 17h.01" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Chatbot Development</h3>
+          <p>Custom AI chat assistants that answer customer questions, qualify leads, and book calls — trained on your business, live on your site 24/7.</p>
+          <p class="service-outcome">Outcome: instant replies, even at 2am.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M8 30V16M18 30V10M28 30V20" stroke-linecap="round"/><path d="M6 30h28" stroke-linecap="round"/></svg>
+          </div>
+          <h3>CRM &amp; Data Automation</h3>
+          <p>Leads get logged, tagged, and followed up automatically. Your pipeline stays accurate without anyone updating it by hand.</p>
+          <p class="service-outcome">Outcome: a CRM your team can trust.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="13"/><path d="M20 13v7l5 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>AI Integration Consulting</h3>
+          <p>Not sure where AI actually fits in your business? I audit your operations and hand you a clear, prioritized automation roadmap.</p>
+          <p class="service-outcome">Outcome: a plan, not just a tool list.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDIES ============ -->
+  <section id="case-studies" class="section section-light">
+    <div class="section-inner">
+      <p class="eyebrow reveal">Real Results</p>
+      <h2 class="reveal">What automation actually looks like in practice</h2>
+
+      <div class="case-list">
+        <article class="case-card reveal">
+          <div class="case-tag">Real estate agency</div>
+          <h3>Lead follow-up that never sleeps</h3>
+          <div class="case-compare">
+            <div class="case-before">
+              <span class="case-label">Before</span>
+              <p>New leads sat in an inbox for hours before anyone replied. Agents lost roughly 1 in 4 to faster competitors.</p>
+            </div>
+            <div class="case-arrow" aria-hidden="true">→</div>
+            <div class="case-after">
+              <span class="case-label">After</span>
+              <p>An AI assistant replies within 60 seconds, qualifies the lead, and books a showing directly on the agent's calendar.</p>
+            </div>
+          </div>
+          <div class="case-stats">
+            <div><strong>12 hrs</strong><span>saved weekly</span></div>
+            <div><strong>63%</strong><span>faster first response</span></div>
+            <div><strong>+28%</strong><span>booked showings</span></div>
+          </div>
+        </article>
+
+        <article class="case-card reveal">
+          <div class="case-tag">E-commerce brand</div>
+          <h3>Order support without the ticket backlog</h3>
+          <div class="case-compare">
+            <div class="case-before">
+              <span class="case-label">Before</span>
+              <p>One support inbox, 200+ tickets a week, and the same five questions asked over and over.</p>
+            </div>
+            <div class="case-arrow" aria-hidden="true">→</div>
+            <div class="case-after">
+              <span class="case-label">After</span>
+              <p>A chatbot resolves order-status and returns questions instantly, escalating only the tickets that truly need a human.</p>
+            </div>
+          </div>
+          <div class="case-stats">
+            <div><strong>70%</strong><span>tickets auto-resolved</span></div>
+            <div><strong>15 hrs</strong><span>saved weekly</span></div>
+            <div><strong>$3,200</strong><span>saved monthly</span></div>
+          </div>
+        </article>
+
+        <article class="case-card reveal">
+          <div class="case-tag">B2B consulting firm</div>
+          <h3>A CRM that finally updates itself</h3>
+          <div class="case-compare">
+            <div class="case-before">
+              <span class="case-label">Before</span>
+              <p>Deal stages were updated manually, inconsistently, and usually late — leadership never trusted the pipeline numbers.</p>
+            </div>
+            <div class="case-arrow" aria-hidden="true">→</div>
+            <div class="case-after">
+              <span class="case-label">After</span>
+              <p>Every call, email, and signed contract updates the CRM automatically, in real time, with zero manual entry.</p>
+            </div>
+          </div>
+          <div class="case-stats">
+            <div><strong>0</strong><span>manual entries/week</span></div>
+            <div><strong>9 hrs</strong><span>saved weekly</span></div>
+            <div><strong>100%</strong><span>pipeline accuracy</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section section-dark">
+    <div class="section-inner about-grid">
+      <div class="about-photo reveal">
+        <img src="assets/headshot.jpg" alt="Portrait of Oliver Sain, AI automation specialist" loading="lazy">
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow eyebrow-light">About Oliver</p>
+        <h2>I build the systems, so your team doesn't have to be the system.</h2>
+        <p>I'm Oliver Sain, an AI automation specialist who works with small and mid-sized businesses to remove the repetitive, error-prone work that eats up their week. My job isn't to hand you more software — it's to make the software you already have work together, quietly, in the background.</p>
+        <p>Every project starts with a plain-language conversation about how your business actually runs. No jargon, no assumption that you already know what a "webhook" is. Just a clear plan, built around outcomes you can measure.</p>
+
+        <div class="about-tools">
+          <span class="tools-label">Tools &amp; platforms</span>
+          <ul class="tools-list">
+            <li>Zapier</li>
+            <li>Make</li>
+            <li>n8n</li>
+            <li>OpenAI API</li>
+            <li>Claude API</li>
+            <li>HubSpot</li>
+            <li>Airtable</li>
+            <li>Custom scripts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-light">
+    <div class="section-inner">
+      <p class="eyebrow reveal">Let's Talk</p>
+      <h2 class="reveal">Book a free 20-minute automation audit</h2>
+      <p class="section-lede reveal">Tell me where your time is going, and I'll tell you — honestly — whether automation can get it back. No pitch deck, no pressure.</p>
+
+      <div class="contact-grid">
+        <div class="contact-booking reveal">
+          <h3>Pick a time</h3>
+          <div class="calendly-embed" id="calendly-embed">
+            <!--
+              Calendly integration:
+              1. Replace the div below with Calendly's inline embed snippet, e.g.
+                 <div class="calendly-inline-widget" data-url="https://calendly.com/oliversain1217/audit" style="min-width:320px;height:630px;"></div>
+              2. Add Calendly's widget script before </body>:
+                 <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            -->
+            <div class="calendly-placeholder">
+              <p>Calendly scheduler goes here.</p>
+              <p class="calendly-placeholder-sub">Swap this block for Oliver's live Calendly embed code.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <h3>Or send a message</h3>
+          <form class="contact-form" id="contact-form" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" required autocomplete="name">
+
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" required autocomplete="email">
+
+            <label for="cf-company">Company</label>
+            <input id="cf-company" name="company" type="text" autocomplete="organization">
+
+            <label for="cf-message">What's eating up your team's time?</label>
+            <textarea id="cf-message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn btn-primary btn-full">Send message</button>
+            <p class="form-note" id="form-note" role="status"></p>
+          </form>
+
+          <div class="contact-direct">
+            <a href="mailto:oliversain1217@gmail.com">oliversain1217@gmail.com</a>
+            <a href="tel:+639567383315">+63 956 738 3315</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Oliver Sain — AI Automation Specialist</span>
+    <div class="footer-links">
+      <a href="mailto:oliversain1217@gmail.com">Email</a>
+      <a href="tel:+639567383315">Phone</a>
+      <a href="#home">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
