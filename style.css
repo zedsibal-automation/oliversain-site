@@ -164,7 +164,7 @@ p{ margin:0 0 1em; line-height:1.65; }
 .hero-sub{
   font-size:1.08rem; color: rgba(245,247,250,0.82); max-width: 46ch;
 }
-.hero-actions{ display:flex; gap:16px; flex-wrap:wrap; margin: 1.5em 0 2.6em; }
+.hero-actions{ display:flex; gap:28px; flex-wrap:wrap; margin: 1.5em 0 2.6em; }
 
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
